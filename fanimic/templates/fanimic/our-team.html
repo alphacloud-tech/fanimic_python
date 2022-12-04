@@ -1,0 +1,422 @@
+
+{% extends 'fanimic/base.html' %}
+{% load static %}
+{% block main_content %}
+
+    <!-- page-title -->
+    <div class="ttm-page-title-row">
+        <div class="section-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"> 
+                    <div class="title-box">
+                        <div class="page-title-heading">
+                            <h1 class="title">Our Team</h1>
+                        </div>
+                        <div class="breadcrumb-wrapper">
+                            <span>
+                                <a title="Homepage" href="{% url 'index' %}"><i class="fa fa-home"></i>&nbsp;&nbsp;Home</a>
+                            </span>
+                            <span class="ttm-bread-sep"> &nbsp; ⁄ &nbsp;</span>
+                            <span><span>Our Team</span></span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>                
+    </div><!-- page-title end-->
+
+
+    <!--site-main start-->
+    <div class="site-main">
+
+        <!-- intro-section -->
+        <section class="ttm-row pt-70 pb-50 ttm-bgcolor-grey clearfix">
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- section-title -->
+                        <div class="section-title mb-35 clearfix">
+                            <h2 class="title"><strong>Meet Our Team</strong></h2>
+                            <div class="heading-seperator"><span></span></div>
+                            <p>Our people at Fanimic Global Resources’ are most valuable 
+                                assets. They are the faces of our organization. 
+                                They are the individuals who see your project from 
+                                start to finish and work together to ensure the end 
+                                result is everything you hoped for and much more!.</p>
+                        </div><!-- section-title end -->
+                    </div>
+                </div><!-- row end -->
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <!-- featured-team-item -->
+                        <div class="featured-item featured-team-item style2 row">
+                            <div class="col-lg-5 col-md-12 featured-img-left">
+                                <!-- ttm-item-view-leftimage -->
+                                <div class="ttm-item-view-leftimage">
+                                    <div class="featured-thumbnail"> 
+                                        <img class="img-fluid" src="{% static 'fanimic/images/farm/team/0021.png' %}" alt="image"> 
+                                    </div> 
+                                    <div class="ttm-box-view-overlay ttm-team-box-view-overlay">
+                                        <div class="featured-iconbox">
+                                            <a href="{% url 'team' %}"><i class="ti ti-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div><!-- ttm-item-view-leftimage end -->
+                            </div>
+                            <div class="col-lg-7 col-md-12 featured-img-right ttm-post-content">
+                                <div class="content-post content-team-post">
+                                    <div class="content-post-desc">
+                                        <h5 class="title-post"><a href="{% url 'team' %}">Engr Muyiwa Olaniyi</a></h5>
+                                        <p class="category">Chief Executive Officer</p>
+                                        <ul class="ttm-team-details-list">
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-mobile"></i> Phone :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="tel:+2347033736586" tabindex="0">+234 703 373 6586</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-email"></i> Email :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="mailto:info@example.com" tabindex="0">info@example.com</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="ttm-social-links-wrapper">
+                                            <ul class="social-icons">
+                                                <li><a href="" tabindex="-1"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="" tabindex="-1"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="" tabindex="-1"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- featured-team-item end-->
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <!-- featured-team-item -->
+                        <div class="featured-item featured-team-item style2 row">
+                            <div class="col-lg-5 col-md-12 featured-img-left">
+                               <!-- ttm-item-view-leftimage -->
+                               <div class="ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{% static 'fanimic/images/farm/team/01.png' %}" alt="image"> 
+                                </div> 
+                                <div class="ttm-box-view-overlay ttm-team-box-view-overlay">
+                                    <div class="featured-iconbox">
+                                        <a href="{% url 'team' %}"><i class="ti ti-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div><!-- ttm-item-view-leftimage end-->
+                            </div>
+                            <div class="col-lg-7 col-md-12 featured-img-right ttm-post-content">
+                                <div class="content-post content-team-post">
+                                    <div class="content-post-desc">
+                                        <h5 class="title-post"><a href="{% url 'team' %}">Mrs Muyiwa Olumide</a></h5>
+                                        <p class="category">Executive Marketing Manager</p>
+                                        <ul class="ttm-team-details-list">
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-mobile"></i> Phone :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="tel:+1800200145" tabindex="0">+234 814 621 2205</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-email"></i> Email :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="mailto:info@example.com" tabindex="0">info@example.com</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="ttm-social-links-wrapper">
+                                            <ul class="social-icons">
+                                                <li><a href="" tabindex="-1"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="" tabindex="-1"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="" tabindex="-1"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- featured-team-item end-->
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <!-- featured-team-item -->
+                        <div class="featured-item featured-team-item style2 row">
+                            <div class="col-lg-5 col-md-12 featured-img-left">
+                                <!-- ttm-item-view-leftimage -->
+                                <div class="ttm-item-view-leftimage">
+                                    <div class="featured-thumbnail"> 
+                                        <img class="img-fluid" src="{% static 'fanimic/images/farm/team/003.png' %}" alt="image"> 
+                                    </div> 
+                                    <div class="ttm-box-view-overlay ttm-team-box-view-overlay">
+                                        <div class="featured-iconbox">
+                                            <a href="{% url 'team' %}"><i class="ti ti-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div><!-- ttm-item-view-leftimage end-->
+                            </div>
+                            <div class="col-lg-7 col-md-12 featured-img-right ttm-post-content">
+                                <div class="content-post content-team-post">
+                                    <div class="content-post-desc">
+                                        <h5 class="title-post"><a href="{% url 'team' %}">Adu Adekunle</a></h5>
+                                        <p class="category">Client Services Executive</p>
+                                        <ul class="ttm-team-details-list">
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-mobile"></i> Phone :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="tel:+1800200145" tabindex="0">+1800200145</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-email"></i> Email :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="mailto:info@example.com" tabindex="0">info@example.com</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="ttm-social-links-wrapper">
+                                            <ul class="social-icons">
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- featured-team-item end-->
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <!-- featured-team-item -->
+                        <div class="featured-item featured-team-item style2 row">
+                            <div class="col-lg-5 col-md-12 featured-img-left">
+                                 <!-- ttm-item-view-leftimage -->
+                                <div class="ttm-item-view-leftimage"> 
+                                    <div class="featured-thumbnail">
+                                        <img class="img-fluid" src="{% static 'fanimic/images/farm/team/2.jpg' %}" alt="image"> 
+                                    </div> 
+                                    <div class="ttm-box-view-overlay ttm-team-box-view-overlay">
+                                        <div class="featured-iconbox">
+                                            <a href="{% url 'team' %}"><i class="ti ti-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div><!-- ttm-item-view-leftimage end-->
+                            </div>
+                            <div class="col-lg-7 col-md-12 featured-img-right ttm-post-content">
+                                <div class="content-post content-team-post">
+                                    <div class="content-post-desc">
+                                        <h5 class="title-post"><a href="{% url 'team' %}">Agboola Oluwaseyi</a></h5>
+                                        <p class="category">Sales Manager</p>
+                                        <ul class="ttm-team-details-list">
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-mobile"></i> Phone :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="tel:+1800200145" tabindex="0">+1800200145</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-email"></i> Email :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="mailto:info@example.com" tabindex="0">info@example.com</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="ttm-social-links-wrapper">
+                                            <ul class="social-icons">
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-dribbble"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- featured-item end-->
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <!-- featured-team-item -->
+                        <div class="featured-item featured-team-item style2 row">
+                            <div class="col-lg-5 col-md-12 featured-img-left">
+                                 <!-- ttm-item-view-leftimage -->
+                                <div class="ttm-item-view-leftimage"> 
+                                    <div class="featured-thumbnail">
+                                        <img class="img-fluid" src="{% static 'fanimic/images/farm/team/3.jpg' %}" alt="image"> 
+                                    </div>
+                                    <div class="ttm-box-view-overlay ttm-team-box-view-overlay">
+                                        <div class="featured-iconbox">
+                                            <a href="{% url 'team' %}"><i class="ti ti-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div><!-- ttm-item-view-leftimage end-->
+                            </div> 
+                            <div class="col-lg-7 col-md-12 featured-img-right ttm-post-content">
+                                <div class="content-post content-team-post">
+                                    <div class="content-post-desc">
+                                        <h5 class="title-post"><a href="{% url 'team' %}">Ogunbiyi Michael</a></h5>
+                                        <p class="category">Social Media Marketer</p>
+                                        <ul class="ttm-team-details-list">
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-mobile"></i> Phone :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="tel:+1800200145" tabindex="0">+1800200145</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-email"></i> Email :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="mailto:info@example.com" tabindex="0">info@example.com</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="ttm-social-links-wrapper">
+                                            <ul class="social-icons">
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-youtube-play"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- featured-team-item end-->
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <!-- featured-team-item -->
+                        <div class="featured-item featured-team-item style2 row">
+                            <div class="col-lg-5 col-md-12 featured-img-left">
+                                <!-- ttm-item-view-leftimage -->
+                                <div class="ttm-item-view-leftimage">
+                                    <div class="featured-thumbnail"> 
+                                        <img class="img-fluid" src="{% static 'fanimic/images/farm/team/10.jpg' %}" alt="image"> 
+                                    </div> 
+                                    <div class="ttm-box-view-overlay ttm-team-box-view-overlay">
+                                        <div class="featured-iconbox">
+                                            <a href="{% url 'team' %}"><i class="ti ti-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div><!-- ttm-item-view-leftimage end-->
+                            </div>
+                            <div class="col-lg-7 col-md-12 featured-img-right ttm-post-content">
+                                <div class="content-post content-team-post">
+                                    <div class="content-post-desc">
+                                        <h5 class="title-post"><a href="team-details.html">Afolabi Ope </a></h5>
+                                        <p class="category">Accountant</p>
+                                        <ul class="ttm-team-details-list">
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-mobile"></i> Phone :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="tel:+1800200145" tabindex="0">+1800200145</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-email"></i> Email :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="mailto:info@example.com" tabindex="0">info@example.com</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="ttm-social-links-wrapper">
+                                            <ul class="social-icons">
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-youtube-play"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- featured-team-item end-->
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <!-- featured-team-item -->
+                        <div class="featured-item featured-team-item style2 row">
+                            <div class="col-lg-5 col-md-12 featured-img-left">
+                                <!-- ttm-item-view-leftimage -->
+                                <div class="ttm-item-view-leftimage">
+                                    <div class="featured-thumbnail"> 
+                                        <img class="img-fluid" src="{% static 'fanimic/images/farm/team/6.jpg' %}" alt="image"> 
+                                    </div> 
+                                    <div class="ttm-box-view-overlay ttm-team-box-view-overlay">
+                                        <div class="featured-iconbox">
+                                            <a href="{% url 'team' %}"><i class="ti ti-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div><!-- ttm-item-view-leftimage end-->
+                            </div>
+                            <div class="col-lg-7 col-md-12 featured-img-right ttm-post-content">
+                                <div class="content-post content-team-post">
+                                    <div class="content-post-desc">
+                                        <h5 class="title-post"><a href="team-details.html">Oni Peter </a></h5>
+                                        <p class="category">Logistics Manager</p>
+                                        <ul class="ttm-team-details-list">
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-mobile"></i> Phone :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="tel:+1800200145" tabindex="0">+1800200145</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="ttm-team-list-title ttm-textcolor-skincolor">
+                                                    <i class="ti ti-email"></i> Email :
+                                                </div>
+                                                <div class="ttm-team-list-value">
+                                                    <a href="mailto:info@example.com" tabindex="0">info@example.com</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="ttm-social-links-wrapper">
+                                            <ul class="social-icons">
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#" tabindex="-1"><i class="fa fa-youtube-play"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- featured-team-item end-->
+                    </div>
+                </div><!-- row end -->
+            </div>
+        </section>
+        <!-- intro-section end -->
+        
+    </div><!--site-main end-->
+
+{% endblock %}

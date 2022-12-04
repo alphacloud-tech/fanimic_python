@@ -1,0 +1,156 @@
+{% load static %}
+ 
+ <!--footer start-->
+ <footer class="footer widget-footer clearfix">
+    <div class="first-footer bg-img7 ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey">
+        <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 widget-area">  
+                   <div class="widget widget-out-link clearfix">
+                        <i class="fa fa-phone"></i>
+                        <h3 class="widget-title">Have a question? call us now</h3>
+                        <p> 
+                            (+234) 703 373 6586
+                            <br>
+                            +(234) 912 687 4608
+                            <br>
+                             +(234) 703 902 7816
+                            <br>
+                             +(234) 814 621 2205
+                        </p>
+                        <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 widget-area">  
+                   <div class="widget widget-out-link clearfix">
+                        <i class="fa fa-envelope-o"></i>
+                        <h3 class="widget-title">Need support? Drop us an email</h3>
+                        <p>info@fanimic.com<br>support@fanimic.com</p>
+                        <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">Fill Our Form</a>
+                    </div>
+                </div> 
+                
+                <div class="col-xs-12 col-sm-12 col-md-4 widget-area">
+                    <div class="widget widget-out-link clearfix">
+                        <i class="fa fa-clock-o"></i>
+                        <h3 class="widget-title">We are open on</h3>
+                        <p>Mon – Fri 07:00 – 21:00<br>Sunday – Closed</p>
+                        <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">Contact Us</a>
+                        <!-- <a class="ttm-btn btn-inline style2" href="{% url 'contact' %}">View More</a> -->
+                    </div>
+                </div>
+            </div><!-- row end -->    
+        </div>
+    </div>
+     <div class="second-footer ttm-textcolor-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-5 widget-area">
+                    <div class="widget style2 widget-out-link clearfix">
+                        <div class="footer-logo">
+                            <!-- <img id="footer-logo-img" class="img-center" src="{% static 'fanimic/images/footer-logo.png' %}" alt=""> -->
+                            <img id="footer-logo-img" class="img-center" src="{% static 'fanimic/images/farm/logo1.png' %}" alt="">
+                        </div><br>
+                        <p>
+                            Fanimic Global Resources, We are Nigeria-based 
+                            commercial and residential contracting company with a 
+                            focus on new Building Construction, Electrical Installation, 
+                            Pure and Bottle Water Manufacturing, Renovations, 
+                            Interior and Exterior remodeling as well as Gardner and Security.
+                        </p>
+                        <ul class="widget-contact mt-25">
+                            <li><i class="ti ti-mobile"></i>(+234) 703 373 6586</li>
+                            <li><i class="ti ti-comment"></i><a href="">info@fanimic.com</a></li>
+                            <li><i class="ti ti-location-pin"></i>25, Ayomide Street, Ijako Sango ota, Ogun State, Nigeria.</li>
+                        </ul>
+                        <div class="social-icons social-hover mt-15">
+                            <ul class="list-inline">
+                                <li class="social-facebook"><a class="tooltip-top" target="_blank" href="" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li class="social-twitter"><a class="tooltip-top" target="_blank" href="" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li class="social-gplus"><a class=" tooltip-top" target="_blank" href="" data-tooltip="Instagram+"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href="" data-tooltip="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-7 widget-area">
+                    <div class="widget style2 widget-out-link clearfix">
+                       <h3 class="widget-title">Our Services</h3>
+                        <ul id="menu-footer-services">
+                            <li><a href="{% url 'building' %}">Building Construction</a></li>
+                            <li><a href="{% url 'manufacturing' %}">Bottle &amp; Pure Water</a></li>
+                            <li><a href="{% url 'electrical' %}">Electrical Installation</a></li>
+                            <li><a href="{% url 'decorator' %}">Interiors &amp; Exteriors Decorator</a></li>
+                            <li><a href="{% url 'agriculture' %}">Agriculture</a></li>
+                            <li><a href="{% url 'agriculture' %}">Fumigation &amp; Pests Control </a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="widget style2 widget-out-link clearfix">
+                       <h3 class="widget-title">Newsletter</h3>
+                       <p>Subscribe to our newsletter to receive latest news on our services.</p>
+                        <form id="subscribe-form" method="post" action="#" data-mailchimp="true">
+                            <div class="mailchimp-inputbox clearfix" id="subscribe-content"> 
+                                <p>
+                                    <i class="fa fa-envelope-o"></i>
+                                    <input type="email" name="email" placeholder="Email Addess.." required="">
+                                </p>
+                                <p><button class="form-btn" type="submit" title="Send" value="Send">Join</button></p>
+                            </div>
+                            <div id="subscribe-msg"></div>
+                        </form>
+                    </div> -->
+                </div>
+                <!-- <div class="col-xs-12 col-sm-12 col-md-4 widget-area">
+                    <div class="widget style2 widget-out-link clearfix">
+                       <h3 class="widget-title">Latest News</h3>
+                        <ul class="widget-post ttm-recent-post-list mt-15">
+                            <li>
+                                <a href="single-blog.html"><img src="{% static 'fanimic/images/blog/01.jpg' %} " alt="post-img"></a>
+                                <a href="single-blog.html">We are best for any industrial & business solution.</a>
+                                <span class="post-date clearfix">August 1, 2018</span>
+                            </li>
+                            <li>
+                                <a href="single-blog.html"><img src="{% static 'fanimic/images/blog/02.jpg' %} " alt="post-img"></a>
+                                <a href="single-blog.html">We won best industry award of the year 2017 & 18.</a>
+                                <span class="post-date clearfix">August 1, 2018</span>
+                            </li>
+                            <li>
+                                <a href="single-blog.html"><img src="{% static 'fanimic/images/blog/03.jpg' %} " alt="post-img"></a>
+                                <a href="single-blog.html">10 reason why should choose our industry</a>
+                                <span class="post-date clearfix">August 05, 2018</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="bottom-footer-text ttm-bottom-footer-text ttm-bgcolor-darkgrey ttm-textcolor-white">
+        <div class="container">
+            <div class="row copyright">
+                <div class="col-md-6">
+                    <div class=" ttm-footer2-left">
+                        <span id="mydate">
+                           
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6 ttm-footer2-right">
+                    <ul id="menu-footer-menu" class="footer-nav-menu">
+                        <!-- <li><a href="#">Privacy Policy</a></li> -->
+                        <li><a href="{% url 'contact' %}">Contact</a></li>
+                        <li><a href="{% url 'about' %}">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
+<script>
+    var getdate = new Date().getFullYear()
+    document.getElementById('mydate').innerHTML = 
+    `Copyright © ${getdate}  &nbsp;<a href='{% url 'index' %}'>Fanimic Global Resources</a>.&nbsp; All rights reserved.`
+</script>
